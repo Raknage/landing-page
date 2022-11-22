@@ -1,9 +1,12 @@
 body {
     background-color: #333;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 a {
