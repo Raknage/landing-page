@@ -108,3 +108,26 @@ p {
 .button:active {
     background: #444444;
 }
+
+.gallery-container {
+    background-color: #eee;
+    padding: 30px;
+}
+
+.gallery-title {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-item{
+    height: 100px;
+    width: 100px;
+    border: solid red 2px;
+    flex-shrink: 0;
+}
