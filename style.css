@@ -26,6 +26,10 @@ a {
     color: powderblue;
 }
 
+a:hover {
+    color: firebrick;
+}
+
 .header-container {
     display: flex;
     justify-content: center;
@@ -34,36 +38,43 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 75%;
     background-color: #333;
-}
-
-.title-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    background-color: #333;
-}
-.title {
-
-}
-
-.title-image{
-    width: 400px;
-    height: 200px;
-    border: 1px white solid;
+    padding: 10px;
 }
 
 .logo {
     font-size: 2rem;
     font-weight: 900;
-    color: rgb(0, 0, 0);
-    background: rgb(250, 243, 230);
-    width: 42px;
-    height: 42px;
+    color: gray;
+    background: white;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    flex-shrink: 0;
+    border: 5px solid;
+    margin-left: 10px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.title {
+    color: powderblue;
+}
+
+.title-image {
+    width: 400px;
+    height: 200px;
+    border: 1px white solid;
 }
