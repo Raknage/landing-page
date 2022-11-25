@@ -132,3 +132,15 @@ p {
     border: solid red 2px;
     flex-shrink: 0;
 }
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding: 50px 200px;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: end;
+}
