@@ -93,7 +93,6 @@ p {
     background-image: linear-gradient(gray 50%, rgb(44, 44, 44) 100%);
     box-shadow: rgb(0, 0, 0) 4px 4px 4px 0px;
     border: 0px inset rgb(28, 110, 164);
-    display: inline-block;
 }
 
 .button:hover {
@@ -102,10 +101,4 @@ p {
 
 .button:active {
     background: #444444;
-}
-
-.title-image {
-    width: 400px;
-    height: 200px;
-    border: 1px white solid;
 }
