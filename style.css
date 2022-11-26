@@ -37,6 +37,10 @@ a:hover {
   color: firebrick;
 }
 
+img {
+  max-width: 100%;
+}
+
 h1 {
   margin-bottom: 10px;
   text-transform: uppercase;
