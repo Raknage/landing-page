@@ -155,7 +155,7 @@ p {
 }
 
 .cta-container {
-  margin: 50px 100px;
+  margin: 80px;
 }
 
 .cta {
@@ -164,7 +164,7 @@ p {
   align-items: center;
   background-color: skyblue;
   border-radius: 10px;
-  padding: 50px 100px;
+  padding: 40px 100px;
   flex-basis: 900px;
 }
 
@@ -175,4 +175,5 @@ p {
 .footer {
   background-color: darkslategrey;
   padding: 20px;
+  color: powderblue;
 }
