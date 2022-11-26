@@ -42,6 +42,11 @@ p {
   margin-bottom: 20px;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -111,16 +116,19 @@ p {
 
 .gallery {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap;
   padding-bottom: 40px;
 }
 
 .gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100px;
   width: 100px;
-  border: solid red 2px;
-  flex-shrink: 0;
+  background: firebrick;
+  color: antiquewhite;
+  margin: 10px;
 }
 
 .quote-container {
