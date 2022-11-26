@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+.fa-solid,
+.fa-brands {
+  color: powderblue;
+}
+
 body {
   background-color: black;
   font-family: roboto, sans-serif;
