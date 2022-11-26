@@ -171,3 +171,8 @@ p {
 .cta p {
   margin: 0px;
 }
+
+.footer {
+  background-color: darkslategrey;
+  padding: 20px;
+}
