@@ -110,8 +110,7 @@ p {
 }
 
 .gallery-title {
-  display: flex;
-  justify-content: center;
+  color: firebrick;
 }
 
 .gallery {
