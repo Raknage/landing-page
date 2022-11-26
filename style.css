@@ -13,7 +13,6 @@
 }
 
 body {
-  background-color: black;
   font-family: oswald, roboto, sans-serif;
   display: flex;
   justify-content: center;
@@ -153,4 +152,22 @@ p {
   display: flex;
   justify-content: end;
   font-size: 1.5rem;
+}
+
+.cta-container {
+  margin: 50px 100px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: skyblue;
+  border-radius: 10px;
+  padding: 50px 100px;
+  flex-basis: 900px;
+}
+
+.cta p {
+  margin: 0px;
 }
